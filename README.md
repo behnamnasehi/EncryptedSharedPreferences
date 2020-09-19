@@ -71,6 +71,17 @@ public class EncryptedDataHolder {
 
 }
 ```
+## Usage
+
+```java
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            encryptedDataHolder = new EncryptedDataHolder(this);
+        }
+        encryptedDataHolder.setApiKey("this is test from Behnam Nasehi");
+
+        TextView textView = findViewById(R.id.txt);
+        textView.setText(encryptedDataHolder.getApiKey());
+```
 
 ## Contact Me 
 Telegram : [Click Here For Opening My Telegram Profile](https://t.me/behnamnasehii)
