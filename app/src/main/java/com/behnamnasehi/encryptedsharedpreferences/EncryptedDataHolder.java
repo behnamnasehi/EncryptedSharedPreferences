@@ -67,5 +67,4 @@ public class EncryptedDataHolder {
         editor.commit();
     }
 
-
 }
